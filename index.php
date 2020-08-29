@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Freelancer - Start Bootstrap Theme</title>
+        <title>Web Zelatom</title>
         <!-- Font Awesome icons (free version)-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -43,6 +43,8 @@
                 </div>
                 <!-- Masthead Subheading-->
                 <p class="pre-wrap masthead-subheading font-weight-light mb-0">Dios Universal Mente Super Dotada</p>
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">fecha de hoy <?=gmdate("today")?></p>
+                
             </div>
         </header>
         <section class="page-section portfolio" id="portfolio">
